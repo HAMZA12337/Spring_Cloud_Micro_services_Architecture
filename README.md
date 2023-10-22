@@ -16,4 +16,4 @@ In this repository i will create an application using micro services and will di
 - Billing Service avec Open Feign Rest Client
 
 ## ❕ Project Structer ❕
-
+![image](https://github.com/HAMZA12337/Spring_Cloud_Micro_services_Architecture/assets/66895798/ffc9dbeb-514d-42e5-93fc-f3be4bc99ef8)
