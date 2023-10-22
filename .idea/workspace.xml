@@ -13,9 +13,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2Wq6NIhqH4KD3fSrnRXFtZXtIgk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +26,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HAMZA/Desktop/Kafka Projects/Spring cloud/customer-service",
+    "last_opened_file_path": "C:/Users/HAMZA/Desktop/Kafka Projects/Spring cloud",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -39,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697447721543</updated>
       <workItem from="1697447722704" duration="75000" />
+      <workItem from="1697970115537" duration="2000" />
     </task>
     <servers />
   </component>

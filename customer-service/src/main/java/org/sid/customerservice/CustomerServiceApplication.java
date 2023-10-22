@@ -6,6 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
 @SpringBootApplication
 public class CustomerServiceApplication {
@@ -16,8 +17,9 @@ public class CustomerServiceApplication {
 
 
 	@Bean
-	CommandLineRunner start(CustomerRepository customerRepository) {
+	CommandLineRunner start(CustomerRepository customerRepository, RepositoryRestConfiguration restConfiguration) {
 
+		restConfiguration.exposeIdsFor(Customer.class);
 		return args -> {
 
 			customerRepository.save(new Customer(null, "Hamza Braimi", "hamza.braimi33@gmail.com"));
